@@ -481,6 +481,13 @@ ul li a:hover {
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .about .container .row img {
+    width: 50vh;
+    height: 50vh;
+  }
+}
+
 
 
 
