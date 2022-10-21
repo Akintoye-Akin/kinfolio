@@ -1,14 +1,6 @@
 html,body {
   height: 100vh;
   background: white;
-  /* background: linear-gradient(
-    to right,
-    black 0%,
-    black 50%,
-    white 50%,
-    white 50% */
-  /* ); */
-  /* overflow: hidden; */
 }
 
 img {
@@ -31,9 +23,35 @@ span {
 span2 {
   color: black; 
 }
-
+ 
+/* --------------------------------------------
+Navbar section
+-----------------------------------------------*/
 #home .container-fluid {
-  margin-top: -7rem;
+  margin-top: -5rem;
+}
+
+.navbar .container-fluid a {
+  font-weight: 500;
+  padding: 0 2rem;
+}
+
+.navbar .container-fluid .offcanvas {
+  width: 40vh;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link{
+  color: black;
+  background: rgb(199, 150, 4);
+  width: 20vh;
+  margin: .5rem .5rem;
+  padding: .4rem 1rem;
+  font-size: 1rem;
+}
+
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item:hover{
+  padding-left: 1.5rem;
+  transition: .9s;
 }
 
 /* -------------------------------------------------------------
@@ -136,6 +154,11 @@ section {
   margin-bottom: 0;
 }
 
+.about .container .row img {
+  width: 59vh;
+  height: 70vh;
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -161,7 +184,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: white;
+  background:  rgb(236, 229, 208);
 }
 
 .skills .progress-bar {
