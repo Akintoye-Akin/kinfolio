@@ -9,7 +9,7 @@ img {
 
 a {
   text-decoration: none;
-  color: rgb(165, 125, 15);
+  color: rgb(165, 125, 15);;
 }
 
 a:hover {
@@ -22,6 +22,24 @@ span {
 
 span2 {
   color: black; 
+}
+
+#home .container-fluid .fa {
+  font-size: 18px;
+  background: #333;
+  color: rgb(141, 104, 4);
+  border-radius: 50%;
+  padding: 7px 3px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+#home .container-fluid .fa:hover {
+  background: rgb(141, 104, 4);
+  color: #fff;
 }
  
 /* --------------------------------------------
