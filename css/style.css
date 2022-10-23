@@ -154,11 +154,6 @@ section {
   margin-bottom: 0;
 }
 
-.about .container .row img {
-  width: 60vh;
-  height: 60vh;
-}
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -481,12 +476,7 @@ ul li a:hover {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-  .about .container .row img {
-    width: 50vh;
-    height: 50vh;
-  }
-}
+
 
 
 
